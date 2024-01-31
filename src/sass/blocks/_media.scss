@@ -1,0 +1,70 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .login {
+        &__title {
+            font-size: 29px;
+        }
+    }
+
+    .header {
+        &__wrapper {
+            svg {
+                width: 120px;
+            }
+        }
+    }
+
+
+}
+
+
+@media (max-width: 477px) {
+
+    .profile {
+        &__left {
+            width: 477px;
+        }
+
+        .profile-info {
+            &__item {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    }
+
+
+}
