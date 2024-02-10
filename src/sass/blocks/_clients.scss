@@ -1,0 +1,29 @@
+.clients {
+	padding: calc(1.3rem * var(--size-a-0-5)) 0;
+	z-index: 1;
+	background-color: #363636;
+	overflow:hidden
+}
+
+.clients .container {
+	z-index: 2;
+}
+
+.clients__title {
+	margin-bottom: .88rem;
+}
+
+.clients__title span {
+	display: inline-block;
+}
+
+.clients__page-number {
+	left: auto!important;
+	right: 1.57rem;
+	top: 5.68rem;
+}
+
+.clients__decor-text {
+	top: 6.6rem;
+	right: 11.76rem;
+}

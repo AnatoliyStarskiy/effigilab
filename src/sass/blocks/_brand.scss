@@ -1,0 +1,78 @@
+.brand {
+	background-color: #424242;
+}
+
+.brand .title span {
+	display: inline-block;
+}
+
+.brand__box {
+	position: relative;
+	overflow: hidden;
+}
+
+.brand__decor {
+	display: flex;
+	padding-bottom: 3rem;
+	align-self: flex-start;
+	will-change: transform;
+	z-index: 1;
+}
+
+.brand__decor-1 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #d6c182;
+	width: 70%;
+	height: 70%;
+	z-index: -1 !important;
+}
+
+.brand__decor-image-1 {
+	position: relative;
+	top: calc(1.5rem * var(--size-a-0-75));
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	z-index: 200 !important;
+}
+
+.brand__decor-image-2 {
+	position: absolute;
+	width: 2.21333rem;
+	height: 2.97333rem;
+	right: 30%;
+	bottom: .5rem;
+	z-index: 300 !important;
+}
+
+.brand__content {
+	padding: .5rem calc(.15rem * var(--size-a-1-25)) 2.25rem;
+}
+
+.brand__content-text {
+	position: relative;
+	z-index: 1;
+}
+
+.brand__title {
+	margin-bottom: calc(.9rem * var(--size-0-75));
+}
+
+.brand__page-number {
+	margin-bottom: .45rem;
+}
+
+.brand__text {
+	--animation-bottom: 10%;
+	line-height: 2.083;
+	font-size: clamp(14px, .3rem, 22px);
+}
+
+.brand__text-decor {
+	z-index: -1;
+	font-size: calc(2.8rem * var(--size-0-75));
+	left: calc(100% - (.9rem * var(--size-a-1-5)));
+	top: calc(100% - .75rem);
+}

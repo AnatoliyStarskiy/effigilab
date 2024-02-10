@@ -1,0 +1,36 @@
+.stages-order {
+	background-color: #363636;
+	padding: calc(1.3rem * var(--size-a-0-75)) 0 calc(1.4rem * var(--size-a-0-5));
+	z-index: 1;
+	overflow: hidden;
+
+	&__slider {
+		min-height: 120px;
+	}
+}
+
+.stages-order .container {
+	z-index: 2;
+}
+
+.stages-order__title {
+	margin-bottom: calc(.88rem * var(--size-a-0-75));
+}
+
+.stages-order__title span {
+	display: inline-block;
+}
+
+.stages-order__page-number {
+	top: 6.44rem;
+}
+
+.stages-order__decor-text {
+	top: 3.3rem;
+	left: 12.68rem;
+}
+
+.slider-controller {
+	position: fixed;
+	bottom: 5px;
+}

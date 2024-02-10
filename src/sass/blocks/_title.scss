@@ -1,21 +1,20 @@
 .title {
-    font-size: 26px;
-    line-height: 1.1em;
-    font-weight: bold;
+	display: block;
+	font-weight: 400;
+	line-height: 1.15;
+	color: #d6c182;
+	font-family: "Gilroy", sans-serif;
+	word-wrap: break-word;
+}
 
-    &_fz56 {
-        font-size: 56px;
-    }
+.title._white {
+	color: #fff;
+}
 
-    &_fz40 {
-        font-size: 40px;
-    }
+.title._black {
+	color: #000;
+}
 
-    &_fz34 {
-        font-size: 40px;
-    }
-
-    &_fz22 {
-        font-size: 22px;
-    }
+.title._size-lg {
+	font-size: clamp(35px, .8rem, 50px);
 }
