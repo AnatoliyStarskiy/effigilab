@@ -55,6 +55,7 @@
 		width: 100;
 		max-width: 42%;
 		margin-bottom: 0;
+		margin-right: 30px;
 	}
 
 	.slider__content {
@@ -91,6 +92,8 @@
 
 	.advantage__box {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.advantage__aside {
@@ -122,7 +125,7 @@
 		margin: 0;
 		position: absolute;
 		top: 0;
-		right: 0;
+		right: -174px;
 		width: 45%;
 	}
 
@@ -241,7 +244,7 @@
 	}
 
 	.logo__icon {
-		font-size: calc(3.16rem * var(--size-a-1-25-lg));
+		font-size: calc(2rem * var(--size-a-1-25-lg));
 	}
 
 	.decor-text {
@@ -257,7 +260,7 @@
 	}
 
 	.container {
-		max-width: 12rem;
+		max-width: 13rem;
 	}
 
 	.menu-modal__list {
@@ -298,12 +301,12 @@
 
 	.brand__decor {
 		padding-bottom: 0;
-		min-height: 11rem;
+		min-height: 12rem;
 	}
 
 	.brand__decor-1 {
-		width: 5.7rem;
-		height: 9.56rem;
+		width: 8.7rem;
+		height: 12.56rem
 	}
 
 	.brand__decor-image-1 {
@@ -337,7 +340,7 @@
 	}
 
 	.advantage__aside-title {
-		margin-bottom: 2rem;
+		margin-bottom: 2em;
 	}
 
 	.advantage__decor-3 {
@@ -494,7 +497,7 @@
 		padding-right: .7rem;
 		padding-left: .7rem;
 		border-radius: .0rem;
-		margin-right: -3.1rem;
+		margin-right: -2.1rem;
 	}
 
 	.home__image-2 {
@@ -523,7 +526,7 @@
 	}
 
 	.advantage-steps__title {
-		flex: 1 0 3rem;
+		flex: 1 0 5rem;
 		padding: .56rem 0;
 	}
 
@@ -619,8 +622,8 @@
 	.advantage__decor {
 		width: 70%;
 		margin-left: 30%;
-		margin-top: 1rem;
-		margin-bottom: 1.5rem;
+		margin-top: 4rem;
+		margin-bottom: -0.5rem;
 	}
 
 	.our-opportunities__card {
@@ -743,10 +746,7 @@
 
 @media all and (max-width: 640px) {
 	.layout-header.active {
-		padding-top: 126px;
-		height: 200px;
-		background-color: transparent;
-		position: absolute !important;
+		position: fixed !important;
 	}
 }
 
@@ -828,12 +828,12 @@
 	}
 
 	.layout-header {
-		height: 15vh;
+		height: 9vh;
 	}
 
 	.header-vid {
-		margin-top: -30px;
-		width: 100%;
+		margin-top: -25px;
+		width: 109vw;
 	}
 
 
@@ -847,7 +847,7 @@
 	}
 
 	.home-nav__card {
-		max-width: 9rem;
+		max-width: 80vw;
 	}
 
 	.header__container {
@@ -870,15 +870,16 @@
 
 	.advantage__aside {
 		max-width: 11.9rem;
+		margin-bottom: 30px;
 	}
 
 	.advantage__decor {
-		width: 35%;
+		width: 40%;
 
 	}
 
 	.advantage__steps-box {
-		min-width: 12.7rem;
+		min-width: 15.7rem;
 	}
 
 	.info__box {
@@ -887,7 +888,7 @@
 	}
 
 	.info__decor {
-		right: -20%;
+		right: -65%;
 	}
 
 	.slider__box {
@@ -915,16 +916,228 @@
 		max-width: 100%;
 	}
 
+	.header__btn {
+		margin-right: -4.1rem;
+	}
+
+	.header__btn.active {
+		margin-right: -4.1rem;
+		right: 25%;
+	}
+
+	.stepprod {
+		min-height: 1000px;
+	}
+
+	.footer__top {
+		grid-template-columns: repeat(1, 1fr);
+	}
 
 
 	.footer__address {
-		padding-top: 9px !important;
-		margin-left: 32px;
+		padding-top: 22px !important;
+		margin: 0 auto;
 	}
-
+	.footer__info{
+		align-items: flex-start;
+	}
 	.menu-modal__link {
 		font-size: calc(16px + 27 * ((var(--height-max-window) - 480px) / 1080)) !important;
 	}
 
 
+}
+
+
+@media (max-width:700px) {
+	.features__services .services .service--hammam {
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		max-width: 1080px;
+	}
+
+	.features__services .services .service--hammam-1 {
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		max-width: 1080px;
+	}
+
+	.features__services .services .service--sauna {
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		max-width: 1080px;
+	}
+}
+
+@media (max-width:992px) {
+	.features__services .services .service--hammam a .service__header {
+		margin-left: 50px;
+	}
+
+	.features__services .services .service--hammam a .service__number {
+		margin-left: 50px;
+	}
+
+	.features__services .services .service--hammam a .service__link {
+		right: 50px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__header {
+		margin-left: 50px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__number {
+		margin-left: 50px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__link {
+		right: 50px;
+	}
+
+	.features__services .services .service--sauna a .service__header {
+		margin-left: 50px;
+	}
+
+	.features__services .services .service--sauna a .service__number {
+		margin-left: 50px;
+	}
+
+	.features__services .services .service--sauna a .service__link {
+		right: 50px;
+	}
+}
+
+@media (max-width:768px) {
+	.features__services .services__item {
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+
+	.features__services .services__item a {
+		display: -webkit-box;
+		display: flex;
+	}
+
+	.features__services .services__item a .service__header h2 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.features__services .services__item a .service__link span {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.features__services .services .service--hammam {
+		min-height: 480px;
+	}
+
+	.features__services .services .service--hammam a .service__header {
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	.features__services .services .service--hammam a .service__number {
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	.features__services .services .service--hammam a .service__link {
+		right: auto;
+		top: auto;
+		left: 40px;
+		bottom: 40px;
+	}
+
+	.features__services .services .service--hammam-1 {
+		min-height: 480px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__header {
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__number {
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__link {
+		right: auto;
+		top: auto;
+		left: 40px;
+		bottom: 40px;
+	}
+
+	.features__services .services .service--sauna {
+		min-height: 480px;
+	}
+
+	.features__services .services .service--sauna a .service__header {
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+
+	.features__services .services .service--sauna a .service__number {
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	.features__services .services .service--sauna a .service__link {
+		right: auto;
+		top: auto;
+		left: 40px;
+		bottom: 40px;
+	}
+}
+
+
+
+@media (max-width:576px) {
+	.features__services .services__item a .service__link span {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	.features__services .services__item a .service__link svg {
+		-webkit-transform: scale(.9) rotate(-90deg);
+		transform: scale(.9) rotate(-90deg);
+	}
+
+	.features__services .services .service--hammam a .service__header {
+		margin-left: 15px;
+	}
+
+	.features__services .services .service--hammam a .service__link {
+		left: 15px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__header {
+		margin-left: 15px;
+	}
+
+	.features__services .services .service--hammam-1 a .service__link {
+		left: 15px;
+	}
+
+	.features__services .services .service--sauna a .service__header {
+		margin-left: 15px;
+	}
+
+	.features__services .services .service--sauna a .service__link {
+		left: 15px;
+	}
 }

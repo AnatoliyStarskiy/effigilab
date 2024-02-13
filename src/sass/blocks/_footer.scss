@@ -1,6 +1,7 @@
 .footer {
 	padding: calc(0.8rem * var(--size-a-0-75)) 0 .1rem;
 	background-color: #363636;
+	overflow: hidden;
 }
 
 .footer__top {
@@ -44,7 +45,7 @@
 .footer__address-title,
 .footer__menu-title {
 	color: #fff;
-	font-size: .4rem;
+	font-size: clamp(16px, .4rem, 22px);
 	line-height: 1;
 	margin-bottom: .4rem;
 	opacity: 0;
@@ -56,7 +57,7 @@
 .menu__link {
 	font-style: normal;
 	color: #ffffff;
-	font-size: .21rem;
+	font-size: clamp(14px, .21rem, 18px);
 	line-height: 1.905;
 	opacity: 0;
 	-webkit-animation-name: b;
@@ -89,8 +90,9 @@
 
 .footer__phone {
 	margin-bottom: .15rem;
+	margin-top: .15rem;
 	line-height: 1;
-	font-size: .4rem;
+	font-size: clamp(14px, .4rem, 22px);
 }
 
 .footer__email,
@@ -103,13 +105,15 @@
 
 .footer__email {
 	margin-bottom: .5rem;
-	font-size: .3rem;
+	font-size: clamp(14px, .3rem, 22px);
 }
 
 .footer__btn {
-	padding: .38rem .8rem;
-	border-radius: .8rem;
-	opacity: 0;
+	display: inline-flex;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    border-radius: 0rem;
+    margin-right: -2.1rem;
 	-webkit-animation-name: b;
 	animation-name: b;
 }
@@ -145,6 +149,7 @@
 .footer-menu__list-item {
 	-webkit-animation-name: b;
 	animation-name: b;
+	line-height: 2px;
 }
 
 .menu-modal__link {

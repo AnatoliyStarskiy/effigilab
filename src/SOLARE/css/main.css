@@ -2266,6 +2266,13 @@ button.swiper-pagination-bullet {
 	z-index: 1;
 }
 
+.home__footer .lenoil {
+	background: url(../images/lenoil/header-bg.jpg) center top no-repeat;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
 .home__footer-box {
 	height: calc(7.72rem * var(--size-0-75));
 	overflow: hidden;
@@ -2323,12 +2330,12 @@ button.swiper-pagination-bullet {
 
 .brand__decor-1 {
 	position: absolute;
-	right: 0;
-	top: 0;
-	background-color: #d6c182;
-	width: 70%;
-	height: 70%;
-	z-index: -1!important;
+    right: 0;
+    top: 0;
+    background-color: #d6c182;
+    width: 70%;
+    height: 70%;
+    z-index: -1!important;
 }
 
 .brand__decor-image-1 {

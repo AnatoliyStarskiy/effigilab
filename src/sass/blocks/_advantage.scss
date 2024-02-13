@@ -1,6 +1,7 @@
 .advantage {
 	background-color: #363636;
 	padding: 1.5rem 0 0;
+	overflow: hidden;
 }
 
 .advantage__page-number {
@@ -12,7 +13,7 @@
 }
 
 .advantage__aside-title {
-	font-size: clamp(14px, .45rem, 50px);
+	font-size: clamp(14px, .45rem, 25px);
 	margin-bottom: 1.33333rem;
 }
 
@@ -74,7 +75,7 @@
 .advantage-steps__title {
 	display: block;
 	padding-top: .32rem;
-	font-size: clamp(10px, .33rem, 26px);
+	font-size: clamp(12px, .33rem, 26px);
 	-webkit-transition-duration: .4s;
 	-o-transition-duration: .4s;
 	transition-duration: .4s;
@@ -92,7 +93,7 @@
 
 .advantage-steps__text {
 	padding: calc(.32rem * var(--size-a-0-75)) 0 .32rem;
-	font-size: clamp(9px, 0.7rem, 15px);
+	font-size: clamp(14px, 0.7rem, 15px);
 	line-height: 1.7;
 }
 

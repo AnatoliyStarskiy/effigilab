@@ -1,0 +1,313 @@
+.features__services .services .service--hammam-1 {
+    width: 1140px;
+    min-height: 600px;
+    background: url(../images/FITOMELATONINA/hammam-1.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1150px;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+
+.features__services .services .service--hammam-1 a .service__header {
+    margin-top: 70px;
+    margin-left: 115px;
+}
+
+
+.features__services .services .service--hammam-1 a .service__number {
+    margin-top: 25px;
+    margin-left: 115px;
+}
+
+.features__services .services .service--hammam-1 a .service__link {
+    position: absolute;
+    top: 340px;
+    right: 70px;
+}
+
+.features__services .services__item a .service__number span {
+    font-size: 100px;
+    line-height: 117px;
+    color: #424242;
+}
+
+
+
+
+
+.features__services .services .service--sauna a .service__number {
+    margin-top: 25px;
+    margin-left: 175px;
+}
+
+
+
+
+
+.features__services .services .service--sauna a .service__link {
+    position: absolute;
+    top: 430px;
+    right: 110px;
+}
+
+
+
+.features__services .services .service--sauna {
+    width: 1080px;
+    min-height: 600px;
+    background: url(../images/FITOMELATONINA/sauna.jpg) center no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 90px rgba(0, 0, 0, .36);
+    position: absolute;
+    left: 0;
+    top: 585px;
+    z-index: 3;
+}
+
+.features__services .services .service--sauna a .service__header {
+    margin-top: 90px;
+    margin-left: 175px;
+}
+
+
+
+
+
+
+
+.features__facts .facts__card .card__title,
+.features__services .services__item a .service__number span,
+.features__time .time__header h1 {
+    font-family: 'Gilroy Medium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    line-height: 100%;
+}
+
+.features__facts .facts__card .card__title,
+.features__services .services__item a .service__number span,
+.features__time .time__header h1 {
+    font-family: 'Gilroy Medium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    line-height: 100%;
+}
+
+
+.features__services .services__item {
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+
+
+.features__services .services__item a .service__header h2 {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    line-height: 39px;
+    color: #de252a;
+    border-top: 1px solid #de252a;
+    border-bottom: 1px solid #de252a;
+}
+
+
+
+.features__services .services__item:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.features__services .services__item:hover a .service__link span {
+    margin-right: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.features__services .services__item:hover a .service__link svg path {
+    stroke: #de252a;
+}
+
+.features__services .services__item a {
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.features__services .services__deco-pattern,
+.features__services .services__item a .service__link {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.features__services .services__item a .service__link span {
+    font-size: 22px;
+    line-height: 39px;
+    color: #fff;
+    position: relative;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+
+.features__services .services__item a .service__link span::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.features__services .services__item a .service__link svg {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-left: 35px;
+}
+
+
+.features__services .services__item a .service__link svg path {
+    stroke: #fff;
+    fill: #fff;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+
+.features__services .services__item:hover a .service__link svg path,
+.project__header a:hover svg path {
+    fill: #de252a;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+
+
+
+
+.features__services .services .service--hammam {
+    width: 1140px;
+    min-height: 600px;
+    background: url(../images/FITOMELATONINA/hammam.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+
+.features__services .services .service--hammam a .service__header {
+    margin-top: 70px;
+    margin-left: 115px;
+}
+
+
+.features__services .services .service--hammam a .service__number {
+    margin-top: 25px;
+    margin-left: 115px;
+}
+
+.features__services .services .service--hammam a .service__link {
+    position: absolute;
+    top: 330px;
+    right: 70px;
+}
+
+
+.stepprod {
+    min-height: 2400px;
+    padding: calc(0.1rem * var(--size-a-0-5)) 0 0.3rem;
+    overflow: hidden;
+}
+
+
+
+.slider__title-pro {
+    font-size: clamp(14px, .4rem, 24px);
+    line-height: 1.26;
+    color: #de252a;
+}
+
+.box-pr {
+    position: absolute;
+    top: 2052px;
+    left: 755px;
+    z-index: 1;
+    width: 456px;
+    height: 260px;
+    border-radius: 0;
+    background-color: #d6c182;
+    box-shadow: 0 2px 40px rgb(0 0 0 / 7%);
+}
+
+
+
+.features__services .services .sauna-1 {
+    background: url(../images/FITOMELATONINA/sauna-1.jpg) center no-repeat !important;
+    top: 1630px;
+}
+
+
+
+#button {
+    display: inline-block;
+    background-color: #d6c182;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    display: block;
+	margin: 0 auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 45px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}

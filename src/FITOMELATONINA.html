@@ -54,6 +54,38 @@
 </head>
 
 <body class="_overflow">
+    <div class="preloader">
+        <button class="preloader__close btn"><svg class="icon">
+                <use xlink:href="svg-sprite/sprite.svg#close"></use>
+            </svg></button>
+        <div class="preloader__wrapper">
+            <div class="preloader__content">
+                <svg class="preloader__logo" viewBox="0 0 235 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <polygon class="preloader__logo-path"
+                        points="0 60.47 0 26.47 19.36 26.47 19.36 32.16 6.53 32.16 6.53 40.38 18.45 40.38 18.45 46.01 6.53 46.01 6.53 54.84 19.85 54.84 19.85 60.47 0 60.47" />
+                    <polygon class="preloader__logo-path"
+                        points="30.26 60.47 30.26 46.01 43.87 46.01 43.87 40.32 30.26 40.32 30.26 32.16 44.91 32.16 44.91 26.47 22.94 26.47 22.94 60.47 30.26 60.47" />
+                    <polygon class="preloader__logo-path"
+                        points="56.2 60.47 56.2 46.01 69.88 46.01 69.88 40.32 56.2 40.32 56.2 32.16 70.91 32.16 70.91 26.47 48.94 26.47 48.94 60.47 56.2 60.47" />
+                    <polygon class="preloader__logo-path"
+                        points="75 60.47 94.85 60.47 94.85 54.84 81.59 54.84 81.59 46.01 93.51 46.01 93.51 40.38 81.59 40.38 81.59 32.16 94.42 32.16 94.42 26.47 75 26.47 75 60.47" />
+                    <path class="preloader__logo-path"
+                        d="M335.3,175.84a34.9,34.9,0,0,0-10-1.39c-11.55,0-18.63,6.54-18.63,18.15s7.62,17,18.63,17a43.37,43.37,0,0,0,11-1.76V189.52H322.59v5.38h7.2v8.84a18.17,18.17,0,0,1-4.48.48c-7.26,0-11.55-5.2-11.55-12.1s4.42-12.28,12.34-12.28a22.51,22.51,0,0,1,8.78,1.75Z"
+                        transform="translate(-209.58 -148.56)" />
+                    <rect class="preloader__logo-path" x="130.26" y="26.47" width="7.32" height="34.01" />
+                    <path class="preloader__logo-path-1"
+                        d="M346.43,161.56a26.53,26.53,0,0,1,9.33-7.51c2.3-1.39,4.93-2.61,4.93-2.61-.32,3.47-.55,7.62-4.08,12.36s-11,6.73-11,6.73c6.55-.67,13.56-3.48,15.11-11.87.92-4.93,1.46-10.1,1.46-10.1-2.08,2.8-5.17,3.24-11.49,6.34-9.87,5.43-7.9,16.6-7.9,16.6a16.71,16.71,0,0,1,3.64-9.94"
+                        transform="translate(-209.58 -148.56)" />
+                    <path class="preloader__logo-path"
+                        d="M411,209V175h11.86c4.36,0,10.95,1.27,10.95,8.72,0,4-2.72,6.89-6.78,7.62v.12c4.66.43,7.81,3.52,7.81,7.75,0,8.53-7.68,9.8-12,9.8Zm6.78-28.62v8.35h2.78c2.91,0,6.41-.61,6.41-4.12,0-3.93-3.44-4.23-6.53-4.23Zm0,13.43v9.87H421c3.2,0,7-.79,7-4.72,0-4.49-3.57-5.15-7-5.15ZM375.05,209l13.19-34H396l13.32,34h-7.57l-2.91-7.81H385l-3,7.81ZM397,195.9l-5-14h-.06l-4.9,14ZM354.17,209h20v-5.32H361V175h-6.84Z"
+                        transform="translate(-209.58 -148.56)" />
+                    <path class="preloader__logo-item"
+                        d="M432.93,229.27H364.82v.81h68.11Zm-157.51,0H210.07v.79h65.35Zm72.18-4.64h0l2.72,7.62h-5.54ZM340.08,239h2.24l1.83-4.91h6.91l1.78,4.91h2.4l-6.38-16.32h-2.4Zm-3.89,0h2.17V222.68h-2.17Zm-12.81,0H334.2v-1.83h-8.65V222.68h-2.17Zm-9.24-14.36h.05l2.72,7.62h-5.54ZM306.62,239h2.24l1.83-4.91h6.9l1.79,4.91h2.4l-6.38-16.32H313Zm-7.48,0h2.17V224.5h5.44v-1.82H293.69v1.82h5.45Zm-9.54,0h2.17V222.68H289.6Z"
+                        transform="translate(-209.58 -148.56)" />
+                </svg>
+            </div>
+        </div>
+    </div>
 
     <span class="cursor"></span>
     <header class="layout-header section">
@@ -96,36 +128,38 @@
 
                 <nav class="menu-modal__box">
                     <ul class="menu-modal__list">
-                        <li class="menu-modal__list-item trigger">
-                            <a href="https://effegilab-rus.ru/" class="menu-modal__link">
+                        <li class="menu-modal__list-item _n trigger">
+                            <a href="index.html" class="menu-modal__link">
                                 <span class="menu-modal__link-number">01</span>
                                 <span class="menu-modal__link-text">О бренде</span>
                             </a>
                         </li>
-                        <li class="menu-modal__list-item _n trigger">
-                            <a href="https://effegilab-rus.ru/FITOMELATONINA" class="menu-modal__link">
+                        <li class="menu-modal__list-item trigger">
+                            <a href="FITOMELATONINA.html" class="menu-modal__link">
                                 <span class="menu-modal__link-number">02</span>
                                 <span class="menu-modal__link-text">Fitomelatonina</span>
                             </a>
                         </li>
                         <li class="menu-modal__list-item trigger">
-                            <a href="https://effegilab-rus.ru/SOLARE" class="menu-modal__link">
+                            <a href="SOLARE.html" class="menu-modal__link">
                                 <span class="menu-modal__link-number">03</span>
                                 <span class="menu-modal__link-text">Solare Fitomelatonina</span>
                             </a>
                         </li>
                         <li class="menu-modal__list-item trigger">
-                            <a href="https://effegilab-rus.ru/PURIATTIVI" class="menu-modal__link">
+                            <a href="PURIATTIVI.html" class="menu-modal__link">
                                 <span class="menu-modal__link-number">04</span>
                                 <span class="menu-modal__link-text">Puriattivi </span>
                             </a>
                         </li>
+
                         <li class="menu-modal__list-item trigger">
-                            <a href="https://effegilab-rus.ru/LENOIL" class="menu-modal__link">
+                            <a href="LENOIL.html" class="menu-modal__link">
                                 <span class="menu-modal__link-number">05</span>
                                 <span class="menu-modal__link-text">Lenoil</span>
                             </a>
                         </li>
+
                         <li class="menu-modal__list-item trigger">
                             <a href="https://shop.effegilab-rus.ru/shop-hot-deals/" class="menu-modal__link">
                                 <span class="menu-modal__link-number">06</span>
@@ -149,19 +183,19 @@
 
     <section id="home" class="home section">
         <div class="home__footer">
-            <div class="home__footer-box trigger-orange-bg wow fadeIn">
+            <div class="home__footer-box trigger-orange-bg">
                 <video controls muted autoplay loop class="header-vid" id="videoId">
                     <source src="images/FITOMELATONINA/global/videoplayback.mp4"
                         type="video/mp4">
                 </video>
                 <div class="header-overlay"></div>
-                <div class="home__image-2 wow fadeIn" data-wow-delay="0.25s">
+                <div class="home__image-2" data-wow-delay="0.25s">
                     <img src="images/FITOMELATONINA/global/line.png" alt="">
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="home-nav wow fadeIn">
+            <div class="home-nav">
                 <a href="#advantage" class="home-nav__card trigger scroll">
                     <p class="home-nav__card-subtitle">посмотреть</p>
                     <strong class="home-nav__card-title title" style="color: #3a3938;">
@@ -190,7 +224,7 @@
                     </strong>
                 </a>
             </div>
-            <h1 class="home__title title _size-lg" style="font-size: .45rem; text-align: center;">
+            <h1 class="home__title title _size-lg">
                 <span class="wow fadeInUp">Красота </span>
                 <span class="wow fadeInUp" data-wow-delay=".1s">- </span>
                 <span class="wow fadeInUp" data-wow-delay=".2s">это </span>
@@ -693,7 +727,7 @@
     </section>
 
 
-
+    <a id="button"></a>
     <footer class="footer">
         <div class="container">
             <div class="footer__top">
@@ -749,7 +783,7 @@
                     <a class=" wow footer__phone footer__link trigger" href="tel:+">8 (921) 932-60-98</a>
                     <a class=" wow footer__email footer__link trigger"
                         href="mailto:info@mirada-spb.ru">info@mirada-spb.ru</a>
-                    <button class="modal-open header__btn fyter btn btn--default trigger wow fadeInRightTop"
+                    <button class="modal-open footer__btn fyter btn btn--default trigger wow fadeInRightTop"
                         style="visibility: visible; animation-name: g;">
                         <p class="zakaz-zvonka">Партнерское сотрудничество</p>
                     </button>

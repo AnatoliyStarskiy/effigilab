@@ -16,7 +16,7 @@
 }
 
 .home__title span {
-	margin-right: 10px;
+	margin-right: .5em;
 	display: inline-block;
 }
 
@@ -30,6 +30,8 @@
 	padding-left: calc(.15rem * var(--size-a-1-25));
 	position: relative;
 	z-index: 2;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .home-nav__card {
@@ -64,7 +66,7 @@
 .home-nav__card-title {
 	display: flex;
 	align-items: flex-end;
-	font-size: clamp(14px, 3rem, 23px);
+	font-size: clamp(14px, 2rem, 18px);
 	line-height: 1.23;
 }
 
@@ -83,6 +85,18 @@
 	z-index: 1;
 }
 
+.lenoil__background {
+	background: url(../images/lenoil/header-bg.jpg) center top no-repeat;
+	position: relative;
+	background-size: cover;
+	z-index: 1;
+}
+.puriattivi__background{
+	background: url(../images/PURIATTIVI/header-bg.jpg) center top no-repeat;
+	position: relative;
+	background-size: cover;
+	z-index: 1;
+}
 .home__footer-box {
 	height: calc(7.70rem * var(--size-0-75));
 	overflow: hidden;

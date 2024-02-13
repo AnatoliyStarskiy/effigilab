@@ -22,7 +22,7 @@
 .layout-header.active {
 	padding-top: 16px;
 	background-color: #2322295e;
-	min-height: 85px;
+	/* min-height: 85px; */
 
 	.header__container {
 		align-items: center;
@@ -47,9 +47,12 @@
 	padding-right: .4rem;
 	padding-left: .4rem;
 	margin-right: -1.1rem;
-	font-size: .17rem;
+	font-size: clamp(14px, .17rem, 24px);
 	padding-top: 0.18rem;
 	padding-bottom: .18rem;
+	top: 0.35rem;
+	right: 10%;
+    position: fixed;
 }
 
 
@@ -57,8 +60,7 @@
 
 .layout-header .home__page-number.active {
 	top: 0.35rem !important;
-	/* font-size: .11rem; */
-	font-size: clamp(10px, .2rem, 24px);
+	font-size: clamp(10px, .11rem, 24px);
 }
 
 
@@ -81,7 +83,8 @@
 
 
 .header__menu-toggle.active {
-	top: 0.32rem;
+	top: 0.35rem;
+	position: fixed;
 }
 
 
@@ -201,7 +204,7 @@
 	flex: 1;
 	width: 1em;
 	height: .36161em;
-	font-size: calc(3.16rem * var(--size-a-0-75));
+	font-size: calc(2rem * var(--size-a-0-75));
 	fill: #3c3b3b;
 }
 
@@ -462,8 +465,8 @@
 
 
 .header-vid {
-	margin-top: -135px;
-	width: 100%;
+	margin-top: -120px;
+    width: 109vw;
 
 }
 

@@ -31,7 +31,7 @@ html {
 body {
 	line-height: 1.458;
 	font-weight: 400;
-	font-size: .24rem;
+	font-size: clamp(12px, .7rem, 42px);
 	color: #ffffff;
 	font-family: "Lato", sans-serif;
 	margin: 0;
@@ -100,7 +100,7 @@ b {
 .btn--default {
 	background: #d6c182;
 	color: #fff;
-	font-size: .27rem;
+	font-size: clamp(14px, .27rem, 40px);
 	border-radius: .38rem;
 	padding-top: .38rem;
 	padding-bottom: .38rem;
@@ -417,7 +417,7 @@ textarea::placeholder {
 .swiper-wrapper {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	min-height: 537px;
 	z-index: 1;
 	display: flex;
 	-webkit-transition-property: -webkit-transform;
@@ -1495,7 +1495,7 @@ button.swiper-pagination-bullet {
 }
 
 .slider__title {
-	font-size: clamp(12px, .7rem, 42px);
+	font-size: clamp(17px, .7rem, 39px);
 	line-height: 1.26;
 	color: #ffffff;
 }
@@ -1513,6 +1513,7 @@ button.swiper-pagination-bullet {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: .4rem;
+	font-size: clamp(14px, .7rem, 27px);
 }
 
 .slider__aside-content img {
@@ -1535,7 +1536,8 @@ button.swiper-pagination-bullet {
 }
 
 .slider__text {
-	font-size: clamp(12px, .23rem, 32px);
+	margin-top: 5px;
+	font-size: clamp(18px, .23rem, 32px);
 	line-height: 1.652;
 }
 
@@ -1544,13 +1546,13 @@ button.swiper-pagination-bullet {
 }
 
 .slider__number {
-	position: absolute;
+	position: fixed;
 	font-family: "Gilroy", sans-serif;
 	font-weight: 100;
 	font-size: 1.71rem;
 	line-height: 1.263;
-	right: .4rem;
-	bottom: -.94rem;
+	right: 12px;
+	bottom: -18px;
 	color: #d6c182;
 	display: none;
 }
@@ -1821,25 +1823,10 @@ img.brand__decor-image-1::before {
 }
 
 
-#button {
-	display: inline-block;
-	background-color: #d6c182;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	border-radius: 0px;
-	position: fixed;
-	bottom: 30px;
-	right: 30px;
-	transition: background-color .3s,
-		opacity .5s, visibility .5s;
-	opacity: 0;
-	visibility: hidden;
-	z-index: 1000;
-}
-
 #button::after {
 	content: "\f077";
+	display: block;
+	margin: 0 auto;
 	font-family: FontAwesome;
 	font-weight: normal;
 	font-style: normal;
@@ -1908,5 +1895,6 @@ img.brand__decor-image-1::before {
 @import 'blocks/quality';
 @import 'blocks/stage';
 @import 'blocks/reviews';
+@import 'blocks/_services';
 @import 'blocks/footer';
 @import 'blocks/media';
