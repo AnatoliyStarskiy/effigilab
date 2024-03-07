@@ -50,9 +50,14 @@
 	font-size: clamp(14px, .17rem, 24px);
 	padding-top: 0.18rem;
 	padding-bottom: .18rem;
-	top: 0.35rem;
+	top: 0.09rem;
 	right: 10%;
-    position: fixed;
+	position: fixed;
+	min-width: clamp(70px, 1.5rem, 190px);
+}
+
+.header__btn.active.btn-ozon {
+	margin-top: clamp(25px, 1rem, 50px);
 }
 
 
@@ -125,6 +130,15 @@
 		margin-top: 15px;
 		@include btn;
 		background: $second-color;
+	}
+
+	&__wrapper-link {
+		display: flex;
+		flex-direction: column;
+		.btn-ozon {
+			margin-top: 20px;
+			background: #5b51de;
+		}
 	}
 
 	.logo {
@@ -466,7 +480,7 @@
 
 .header-vid {
 	margin-top: -120px;
-    width: 109vw;
+	width: 109vw;
 
 }
 
